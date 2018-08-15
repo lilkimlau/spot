@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<title>Spot</title>
+<head>
+  <link rel="stylesheet" href="spot.css" >
+  <script src="spot.js" ></script>
+</head>
+  <body>
+    <div style="display:inline; white-space:nowrap;" >
+    <center><img src="spotlaunchscreen.png"></center>
+  </div>
+
+  <div>
+    <center> <h1 id = "q1">HOW ARE YOU FEELING?</center></h1>
+  </div>
+
+<!--dropdown menu for "HOW ARE YOU FEELING?"-->
+<center><select name="feeling" id="feeling">
+  <option id="H" value="HAPPY">HAPPY</option>
+  <option id="R" value="ROMANTIC">ROMANTIC</option>
+  <option id="SA" value="SAD">SAD</option>
+  <option id="ST" value="STRESSED">STRESSED</option></center>
+</select></center>
+
+<div>
+  <center> <h1 id = "q2">HOW HUNGRY ARE YOU?</center></h1>
+</div>
+
+<!--slider for "HOW HUNGRY ARE YOU?""-->
+<div class="slidecontainer">
+  <center><input type="range" min="1" max="100" value="0" class="slider" id="myRange"></center>
+</div>
+
+<!--button that leads to next page-->
+<center><button onclick="read()" class="button button4" id="button4">Find My Food</button></center>
+
+</body>
+</html>

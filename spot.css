@@ -1,0 +1,85 @@
+body {
+  background-color: #B3E0FF
+}
+
+/*dropdown menu*/
+#feeling{
+  width: 300px;
+}
+
+#q1 {
+  color: white;
+  font-family: 'marker felt';
+  font-style: 'wide';
+  margin-top:120px;
+}
+
+#q2 {
+  color: white;
+  font-family: 'marker felt';
+  font-style: 'wide';
+}
+/*Find your food button*/
+#button4 {
+  border-radius: 10px;
+  margin-top: 35px;
+  align: center;
+
+}
+/*slidecontainer*/
+.slidecontainer {
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+/*slider*/
+.slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 40px;
+    background: #E7F1FF;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+/*hovering over the slider*/
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 50px;
+    background: #FDFFB2;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+/*find your food button*/
+.button {
+    background-color: #FFFF;
+    border: 'round';
+    color: #B3E0FF;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'marker felt';
+    font-style: 'wide';
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#slidecontainer{
+ margin-left: 350px;
+ margin-right:350px;
+}
